@@ -1,23 +1,12 @@
 stackbitVersion: ~0.3.0
 ssgName: gatsby
-ssgVersion: 2.3.30
-buildCommand: npm run build
-publishDir: public
-staticDir: static
-uploadDir: images
-dataDir: src/data
-pagesDir: src/pages
-pageLayoutKey: template
 cmsName: contentful
-nodeVersion: '14'
 
 import:
   type: contentful
   contentFile: contentful/export.json
-  uploadAssets: true
-  assetsDirectory: contentful
   spaceIdEnvVar: m0t5wowr33sg
-  accessTokenEnvVar: FjMfBGO1yb4nQKkcV3VvuWqUej9OfsgonIIGS-Ed7pw
+  accessTokenEnvVar: -lazzTgSugjYY22cpGNSIv3SRP8pIe74RboqVsEIuqg
 
 
 logicFields:
